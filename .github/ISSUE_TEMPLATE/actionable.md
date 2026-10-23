@@ -4,11 +4,11 @@ name: Actionable
 about: A unit of work in the plan
 labels: [actionable]
 ---
----
+```yaml
 pm:
   id: ''
   depends: []
----
+```
 
 ## Goal
 
