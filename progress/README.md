@@ -83,23 +83,23 @@ flowchart LR
   n5["✕ #7 Write the docs"]:::blocked
   n6["✕ #8 Broken reference"]:::blocked
   n7["○ #9 From the template"]:::ready
-  n8[["▶ plan backend Backend"]]:::active
-  n9[["✕ plan frontend Frontend"]]:::blocked
-  n10["✓ pmtrack#9 Install pmtrack without copying…"]:::done
+  n8["✓ other#1 Database schema"]:::done
+  n9[["▶ plan backend Backend"]]:::active
+  n10[["✕ plan frontend Frontend"]]:::blocked
   n0 --> n1
   n1 --> n2
-  n10 --> n2
+  n8 --> n2
   n1 --> n3
-  n8 --> n5
+  n9 --> n5
   n6_u0["? no-such-id"]:::unknown --> n6
-  n8 -.- n0
-  n8 -.- n1
-  n8 -.- n2
-  n8 -.- n6
-  n9 -.- n3
-  n9 -.- n4
-  n9 -.- n5
-  n8 --> n9
+  n9 -.- n0
+  n9 -.- n1
+  n9 -.- n2
+  n9 -.- n6
+  n10 -.- n3
+  n10 -.- n4
+  n10 -.- n5
+  n9 --> n10
   classDef done fill:#0ca30c,color:#000,stroke:#0ca30c
   classDef active fill:#2a78d6,color:#fff,stroke:#2a78d6
   classDef ready fill:#eda100,color:#000,stroke:#eda100

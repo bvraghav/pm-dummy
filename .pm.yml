@@ -7,4 +7,4 @@ out: progress
 templates: templates
 labels: ["area/*"]
 remotes:
-  pmtrack: {forge: forgejo, url: https://forgejo.lab.bvraghav.com, repo: pm-bot/pmtrack, token_env: FORGEJO_TOKEN}
+  other: {forge: gitlab, url: https://gitlab.com, repo: bvraghav/pm-dummy, token_env: OTHER_TOKEN}

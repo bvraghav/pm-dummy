@@ -16,7 +16,7 @@ pie showData title Items by status
 |---|---|--:|---|
 | [#1](https://github.com/bvraghav/pm-dummy/issues/1) Database schema | ✓ done | 2/2 |  |
 | [#2](https://github.com/bvraghav/pm-dummy/issues/2) API endpoints | ▶ active | 1/2 | ✓ #1 |
-| [#3](https://github.com/bvraghav/pm-dummy/issues/3) Auth tokens | ✕ blocked |  | ▶ #2, ✓ pmtrack#9 |
+| [#3](https://github.com/bvraghav/pm-dummy/issues/3) Auth tokens | ✕ blocked |  | ▶ #2, ✓ other#1 |
 | [#8](https://github.com/bvraghav/pm-dummy/issues/8) Broken reference | ✕ blocked |  | ? `no-such-id` |
 
 ## Changes
@@ -49,7 +49,7 @@ flowchart LR
   n1["▶ #2 API endpoints"]:::active
   n2["✕ #3 Auth tokens"]:::blocked
   n3["✕ #8 Broken reference"]:::blocked
-  n4["✓ pmtrack#9 Install pmtrack without copying…"]:::done
+  n4["✓ other#1 Database schema"]:::done
   n0 --> n1
   n1 --> n2
   n4 --> n2
