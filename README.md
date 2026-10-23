@@ -6,3 +6,5 @@ dependency. The same project lives on GitHub and GitLab, so the readers
 and the rendering can be checked on both.
 
 The review is in [`progress/`](progress/README.md).
+
+Pull requests are not issues: pmtrack leaves them out.
