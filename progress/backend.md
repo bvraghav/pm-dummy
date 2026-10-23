@@ -1,8 +1,8 @@
 # ▶ Backend
 
-_Plan `backend` · [doc](../docs/backend.md) · data as of 2026-10-23 03:44 UTC · [all subsets](README.md)_
+_Plan `backend` · [doc](../docs/backend.md) · data as of 2026-10-23 04:12 UTC · [all subsets](README.md)_
 
-**38% done** · ✓ 1 done · ▶ 1 active · ○ 0 ready · ✕ 2 blocked
+**50% done** · ✓ 1 done · ▶ 1 active · ○ 0 ready · ✕ 2 blocked
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#0ca30c", "pie2": "#2a78d6", "pie3": "#d03b3b", "pieOpacity": "1", "pieSectionTextColor": "#000", "pieStrokeColor": "#fff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px"}}}%%
@@ -15,13 +15,15 @@ pie showData title Items by status
 | Item | Status | Ticked | Depends on |
 |---|---|--:|---|
 | [#1](https://github.com/bvraghav/pm-dummy/issues/1) Database schema | ✓ done | 2/2 |  |
-| [#2](https://github.com/bvraghav/pm-dummy/issues/2) API endpoints | ▶ active | 1/2 | ✓ #1 |
+| [#2](https://github.com/bvraghav/pm-dummy/issues/2) API endpoints | ▶ active | 2/2 | ✓ #1 |
 | [#3](https://github.com/bvraghav/pm-dummy/issues/3) Auth tokens | ✕ blocked |  | ▶ #2, ✓ other#1 |
 | [#8](https://github.com/bvraghav/pm-dummy/issues/8) Broken reference | ✕ blocked |  | ? `no-such-id` |
 
 ## Changes
 
-_No earlier snapshot yet; changes appear from the next update._
+From 2026-10-23 03:44 to 2026-10-23 04:12 UTC:
+
+- no changes
 
 ## Needs attention
 
