@@ -1,0 +1,15 @@
+---
+template:
+  name: Actionable
+  about: A unit of work in the plan
+  labels: [actionable]
+pm:
+  id: ""
+  depends: []
+---
+
+## Goal
+
+## Done when
+
+- [ ] 
